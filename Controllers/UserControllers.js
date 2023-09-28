@@ -1,6 +1,6 @@
+require("dotenv").config();
 const userModel = require("../Models/User");
 const chatPool = require("../Models/ChatPool");
-require("dotenv").config();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
